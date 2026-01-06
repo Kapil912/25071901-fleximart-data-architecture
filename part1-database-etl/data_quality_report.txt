@@ -1,0 +1,29 @@
+FlexiMart ETL Data Quality Report
+===================================
+
+[customers_raw.csv]
+- records_read: 26
+- duplicates_removed: 1
+- missing_values_handled: 5
+- records_after_cleaning: 20
+
+[products_raw.csv]
+- records_read: 20
+- duplicates_removed: 0
+- missing_values_handled: 4
+- records_after_cleaning: 17
+
+[sales_raw.csv]
+- records_read: 41
+- duplicates_removed: 1
+- missing_values_handled: 5
+- records_after_cleaning: 35
+
+[LOAD_SUMMARY]
+- customers_loaded_successfully: 20
+- products_loaded_successfully: 17
+- orders_loaded_successfully: 25
+- order_items_loaded_successfully: 25
+- sales_rows_skipped_due_to_missing_id_mapping: 10
+- sales_rows_skipped_missing_customer_mapping: 8
+- sales_rows_skipped_missing_product_mapping: 3
